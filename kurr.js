@@ -1,3 +1,4 @@
+
 ///--------------------------------------------------------------\\\
 
 const
@@ -125,11 +126,11 @@ let family100 = [];
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Peaky";
-autorespon = true
-playmusic = true
+fake = "/> Tato KurrXd";
+autorespon = false
+playmusic = false
 menusimpel = false
-menuall = true
+menuall = false
 baterai = {
 battery: "" || "Not detected",
 isCharge: "" || false
@@ -509,10 +510,10 @@ const ftrol = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 1914-1918,
+                            itemCount : 99999,
                             status: 1,
                             surface : 1,
-                            message: `Hidup Aldolf Hitler`, //Kasih namalu
+                            message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
                             orderTitle: `KurrXdゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -1169,42 +1170,6 @@ reply(cpref)
 }
  if(budy.includes('cekprefix')){
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
-reply(cpref)
-}
-if(budy.includes('KurrXd')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
-}
-if(budy.includes('kurrxd')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
-}
-if(budy.includes('kurrtod')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
-}
-if(budy.includes('KurrTod')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
-}
-if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
-reply(cpref)
-}
-if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
-reply(cpref)
-}
-if(budy.includes('Hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
-reply(cpref)
-}
-if(budy.includes('hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('tendang')){
@@ -6012,7 +5977,7 @@ buttons = [{buttonId:`.ytmp3 ${res.all[0].url}`,buttonText:{displayText:'🎵AUD
 
 imageMessage = (await kurr.prepareMessageMedia({url:res.all[0].image},'imageMessage',{thumbnail:Buffer.alloc(0)})).imageMessage
 
-buttonsMessage = {contentText: thumbInfo,footerText:'choose Audio Or Video ',imageMessage,buttons,headerType:4}
+buttonsMessage = {contentText: thumbInfo,footerText:'Silahkan Pilih Jenis File Dibawah Ini',imageMessage,buttons,headerType:4}
 
 prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{})
 
@@ -6642,7 +6607,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer Yuki ゑ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/0/0"}}})
+     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer Yuki ゑ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
 	}
     }
     }
@@ -6654,5 +6619,10 @@ Giliran = @${tty.player1.split('@')[0]}`
 ///-------------------------------------------------------------\\\
 
 /**
-* 
+* Thx To:
+KurrXd
+Dcode Denpa
+Yuzzu Kamiyaka
+**/
+
 ///----------( Thx Dah Pake Scriptnya )----------\\\
