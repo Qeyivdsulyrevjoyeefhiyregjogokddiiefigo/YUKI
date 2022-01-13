@@ -1412,25 +1412,8 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  sections: [
                      {
                       "title": `----PILIH COMMAND DIBAWAH----`,
- rows: [
-                          {
-                              "title": "INFO THIS BOT",
-                              "description": '•|----Info Bot----|•',
-                              "rowId": ""
-                            
-                           },
-                           {
-                              "title": "SEWABOT",
-                              "description": '•|----Rent Bot----|•',
-                              "rowId": ""
-                            
-                           },
-                          {
-                              "title": "GRUP OFFICIAL BOT",
-                              "description": '•|----Grup Bot----|•',
-                              "rowId": ""
-                            
-                           },
+ rows: [                                                    
+                           }                                       
                            {
                               "title": "groupmenu",
                               "description": '•|----Grup Menu----|•',
@@ -1476,13 +1459,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
                               "title": "QRISS",
                               "description": '•|----FOR DONATE----|•',
                               "rowId": ""
-                           },
-                           {
-                              "title": "SCRIPT",
-                                    "description": '•|----Script This Bot----|•',
-                              "rowId": ""
                            }
-                           
                         ]
                      }],
  listType: 1
